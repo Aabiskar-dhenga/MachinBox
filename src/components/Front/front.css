@@ -280,10 +280,13 @@
         height: fit-content;
     }
     .firstItem{
-        top: 5% !important;
+        top: 14% !important;
     }
-    .firstItem >img{
-        width: 35% !important;
+    .firstItem .container_main_desc{
+        font-size: 12px;
+    }
+    .firstItem +img{
+        width: 25% !important;
     }
     .multipleImg img:nth-of-type(1),.multipleImg img:nth-of-type(3){
         width: 22%;
