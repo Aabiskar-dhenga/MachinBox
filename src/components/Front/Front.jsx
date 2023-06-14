@@ -28,7 +28,7 @@ const Front = ({data , indexNo}) => {
 
 
                   ))}
-              </div>:   <img className='container_main_img' src={data.image} alt="matchinBoxIMg" />
+              </div>:   <img className={`${data.image==="/img/explore3.png" ? "smallImg" :""} container_main_img`} src={data.image} alt="matchinBoxIMg" />
             }
          
         </motion.div>

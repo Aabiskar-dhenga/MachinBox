@@ -244,6 +244,9 @@
 
 
     }
+    .smallImg{
+        width: 30% !important;
+    }
     .gradient_bg{
         background: linear-gradient(155deg,rgb(0 0 0 / 91%),rgb(0 0 0 / 81%) ,rgb(0 0 0 / 52%),rgb(0 0 0 / 33%));
     }

@@ -25,7 +25,7 @@ export const homeCategories = [
     name: "Limitless Exploration: Worldwide Reach!",
     content:
       "Endless Choices, Global Reach. MatchInbox offers a growing list of bars and restaurants in your area, with new additions every day. Our highly scalable app ensures availability worldwide. Don't see your favorite spot? No problem! Simply search and find it with ease.",
-    image: "/img/explore.png",
+    image: "/img/explore3.png",
     bgCode: "#1E1114",
   },
   {
