@@ -12,7 +12,7 @@ const Navbar = () => {
   <li className='navListing'>ABOUT US </li>
 </ul>
 
-<button className='nav_download_button'>DOWNLOAD NOW</button>
+<button className='nav_download_button'>DOWNLOAD NOW !</button>
    <NavMenu>
     <HiMenuAlt1 className='menuIcon'/>
     </NavMenu> 
