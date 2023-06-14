@@ -115,6 +115,17 @@ color: #F7F3F3;
         height: 32px;
         padding:  0 5px;
     }
+    .menuIcon{
+        display: block;
+        color: rgb(255, 61, 8);
+        font-size: 2rem;
+    }
+    .nav_list{
+        display: none;
+    }
+    .nav_download_button{
+        display: none;
+    }
 }
 @media screen and (max-width: 480px) {
 

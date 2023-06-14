@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import {HiMenuAlt1} from "react-icons/hi"
+import NavMenu from '../../layouts/NavMenu/NavMenu'
 const Navbar = () => {
   return (
     <div className='navbar' >
@@ -12,7 +13,9 @@ const Navbar = () => {
 </ul>
 
 <button className='nav_download_button'>DOWNLOAD NOW</button>
-<HiMenuAlt1 className='menuIcon'/>
+   <NavMenu>
+    <HiMenuAlt1 className='menuIcon'/>
+    </NavMenu> 
 
     </div>
   )

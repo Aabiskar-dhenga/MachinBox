@@ -2,7 +2,7 @@ export const homeCategories = [
   {
     name: "MatchInBox",
     content:
-      "Introducing MatchInbox, the groundbreaking application that redefines social connections. Say goodbye to traditional dating apps and embrace a new era of vibe matching. Choose your favorite spot on the map—whether it's a trendy bar, a cozy restaurant, or a happening pub—and instantly discover a vibrant community of like-minded individuals in your vicinity. Engage in exciting conversations, challenge your new connections to thrilling Wordle games, and be inspired by captivating stories shared on user profiles. MatchInbox Radar brings people together based on shared interests and location, creating unforgettable moments wherever you go. Welcome to a world where meaningful connections happen naturally.",
+      "Introducing MatchInbox, the groundbreaking application that redefines social connections. Say goodbye to traditional dating apps and embrace a new era of vibe matching. Choose your favorite spot on the map—whether it's a trendy bar, a cozy restaurant, or a happening pub—and instantly discover a vibrant community of like-minded individuals in your vicinity. Engage in exciting conversations, challenge your new connections to thrilling Wordle games, and be inspired by captivating stories shared on user profiles.",
     image: "/img/MatchinBox.png",
     bgCode: "rgb(57 77 83)",
   },

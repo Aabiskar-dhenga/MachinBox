@@ -18,7 +18,7 @@ const Front = ({data , indexNo}) => {
             
         <div className={`frontContainerTextContent ${indexNo  ==0 ? "firstItem":""}`}>
             <h1 className='container_main_heading'>{data.name}</h1>
-            <p className='container_main_desc'> {data.content}</p>
+            <p className='container_main_desc'> {  data.content}</p>
         </div>
             {
               data.multipleImg ? <div className='multipleImg'>
