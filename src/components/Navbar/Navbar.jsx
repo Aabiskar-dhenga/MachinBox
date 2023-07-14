@@ -10,11 +10,15 @@ const Navbar = () => {
         <img className="logoImg" src="/img/Logo.png" alt="LogIMg" />
       </Link>
       <ul className="nav_list">
-        <li className="navListing">OUR FLAVOURS</li>
+        <Link to={"/"}>
+          <li className="navListing">OUR FEATURES</li>
+        </Link>
         <Link to={"/product"}>
           <li className="navListing">OUR PRODUCT</li>
         </Link>
-        <li className="navListing">ABOUT US </li>
+        <Link to={"/aboutus"}>
+          <li className="navListing">ABOUT US </li>
+        </Link>
         <Link to={"/privacypolicy"}>
           <li className="navListing">Privacy Policy </li>
         </Link>

@@ -1,13 +1,14 @@
 .termsandconditionParentContainer{
     height: 100vh;
-    max-width: auto;
     width: 100vw;
-    background-color: #5c5353;
+    background-color: black;
+    color: lightgreen;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .termsandconditionContent{
+    height: 100%;
     width: 40%;
 }
