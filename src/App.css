@@ -9,6 +9,9 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
 .home_container{
   height: 100vh;
   overflow: scroll;
