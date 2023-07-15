@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Aboutus.css";
-import "../../components/Front/Front.css";
+import "../../components/Front/front.css";
 
 const Aboutus = () => {
   return (
