@@ -15,9 +15,11 @@ const NavMenu = ({ children }) => {
     <Menu>
       <MenuButton as={Box}>{children}</MenuButton>Product
       <MenuList>
-        <MenuItem>Our Flavours</MenuItem>
-        <MenuItem> Our Product</MenuItem>
-        <MenuItem>About Us </MenuItem>
+        <MenuItem>OUR FEATURES</MenuItem>
+        <MenuItem> OUR PRODUCT</MenuItem>
+        <MenuItem>ABOUT US </MenuItem>
+        <MenuItem>PROVACY POLICY</MenuItem>
+        <MenuItem>TERMS AND CONDITION</MenuItem>
         <MenuItem>Download</MenuItem>
       </MenuList>
     </Menu>

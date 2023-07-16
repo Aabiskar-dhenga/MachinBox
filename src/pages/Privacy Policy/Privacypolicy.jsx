@@ -8,7 +8,6 @@ const Privacypolicy = () => {
     <div className="PrivacypolicyParentContainer frontContainer ">
       <Navbar />
       <div className="privacyPolicycontent">
-        {/* <h1>Privacy Policy</h1> */}
         <div className="content_box">
           <p className="content_main_text">
             At MatchInbox, we value your privacy and are committed to protecting
