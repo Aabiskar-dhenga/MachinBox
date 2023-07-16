@@ -98,35 +98,40 @@ color: #F7F3F3;
         padding:  0 5px;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 600px) {
-
-
-    .logoImg{
-        width: 60px;
+@media screen and (max-width: 480px) {
+    .navbar {
+      padding: 0 10px;
     }
-    
-    .navListing{
-        font-size: 10px;
+  
+    .logoImg {
+      width: 50px;
     }
-    .nav_download_button{
-        font-size: 8px;
-        font-weight: 100;
-        border: 1px solid;
-        height: 32px;
-        padding:  0 5px;
+  
+    .navListing {
+      font-size: 8px;
     }
-    .menuIcon{
-        display: block;
-        color: rgb(255, 61, 8);
-        font-size: 2rem;
+  
+    .nav_list {
+      display: none;
+      gap: 10px;
     }
-    .nav_list{
-        display: none;
+  
+    .nav_download_button {
+      font-size: 8px;
+      font-weight: 100;
+      border: 1px solid;
+      height: 32px;
+      padding: 0 5px;
+      display: none;
     }
-    .nav_download_button{
-        display: none;
+  
+    .menuIcon {
+      display: block;
+      color: rgb(255, 61, 8);
+      font-size: 2rem;
     }
-}
+  }
+  
 @media screen and (max-width: 480px) {
 
     .navbar{

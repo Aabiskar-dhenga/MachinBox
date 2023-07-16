@@ -28,9 +28,9 @@ const Navbar = () => {
       </ul>
 
       <button className="nav_download_button">DOWNLOAD NOW !</button>
-      {/* <NavMenu>
+      <NavMenu>
         <HiMenuAlt1 className="menuIcon" />
-      </NavMenu> */}
+      </NavMenu>
     </div>
   );
 };
