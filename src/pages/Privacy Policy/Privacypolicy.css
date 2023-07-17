@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 5rem;
     color: rgb(138, 138, 138);}
 .content_main_text{
     margin-bottom: 2rem;
@@ -50,4 +51,14 @@
     }
     .policy_list_inner >li{
         color: gray;
+    }
+
+    @media screen  and (max-width:760px){
+        .content_box{
+            width: 100%;
+        }
+        .privacyPolicycontent  {
+            width: 90%;
+            padding: 0;
+        }
     }

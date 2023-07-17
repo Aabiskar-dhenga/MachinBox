@@ -13,6 +13,7 @@
     padding: 2rem;
     height: 100%;
     width: 70%;
+    padding-bottom: 5rem;
     overflow-y: scroll;
 }
 
@@ -46,4 +47,17 @@
     }
     .termsandconditionInner >li{
         color: gray;
+    }
+
+
+    @media screen  and (max-width:760px){
+        .content_box{
+            width: 100%;
+        }
+        .termsandconditionContent    {
+            width: 90%;
+            padding: 0;
+        }
+        
+       
     }

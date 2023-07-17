@@ -5,7 +5,7 @@ import "./Termsandcondition.css";
 const Termsandcondition = () => {
   return (
     <div className="termsandconditionParentContainer PrivacypolicyParentContainer frontContainer">
-      <Navbar />;
+      <Navbar />
       <div className="termsandconditionContent  ">
         <div className="content_box">
           {/* <h1>Terms and Conditions </h1> */}

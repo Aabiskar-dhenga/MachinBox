@@ -148,7 +148,25 @@
     .gradient_bg{
         background: linear-gradient(155deg,rgb(0 0 0 / 91%),rgb(0 0 0 / 81%) ,rgb(0 0 0 / 52%),rgb(0 0 0 / 33%));
     }
+    .navListing{
+        font-size: 12px;
+    }
 }
+@media screen  and(min-width:990) and (max-width:1100px){
+    .navListing{
+        font-size: 6px;
+    }
+    
+}       
+
+@media screen and (min-width:992px)and (max-width:1130px){
+    .navListing{
+        font-size: 11px;
+    }
+}
+
+
+
 @media screen and ( min-width:600px) and (max-width:768px) {
     .gradient_bg{
         background: linear-gradient(155deg,rgb(0 0 0 / 91%),rgb(0 0 0 / 81%) ,rgb(0 0 0 / 52%),rgb(0 0 0 / 33%));

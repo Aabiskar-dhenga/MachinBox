@@ -16,7 +16,7 @@ const NavMenu = ({ children }) => {
     <Menu>
       <MenuButton as={Box}>{children}</MenuButton>
       <MenuList>
-        <Link to={"/ourfeatures"}>
+        <Link to={"/"}>
           <MenuItem>OUR FEATURES</MenuItem>
         </Link>
         <Link to={"/product"}>

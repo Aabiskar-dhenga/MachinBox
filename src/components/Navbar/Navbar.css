@@ -3,6 +3,7 @@
     height: 70px;
     width: 100%;
     justify-content: space-between;
+    /* background-color: black; */
     align-items: center;
     padding: 0 2rem;
     position: fixed;
@@ -98,7 +99,7 @@ color: #F7F3F3;
         padding:  0 5px;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 992px) {
     .navbar {
       padding: 0 10px;
     }

@@ -1,9 +1,10 @@
 .aboutusContainer{
     background-color: black;
-    height: 100vh;color: rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
     width: 100vw;
     display: flex;
     align-items: center;
+    height: 100%;
     justify-content: center;
     
 }
@@ -13,6 +14,7 @@
     height: 100%;
     width:80%;
     padding: 2rem;
+    padding-bottom: 5rem !important;
     
 }
 .about_heading_text{
@@ -44,3 +46,13 @@
     margin: 10px 0;
     display: block;
 } */
+
+
+@media screen and (max-width:780px) {
+    .aboutusContent{
+      
+        width:90%;
+padding: 0;        
+        
+    }
+}
